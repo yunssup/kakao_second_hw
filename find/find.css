@@ -6,3 +6,121 @@ body {
   height: 100vh;
   border: 1px solid red;
 }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.top {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
+  flex-grow: 0.01;
+}
+.top i {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.top p {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.Chats {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+  flex-grow: 0.02;
+}
+
+.Chats i {
+  font-size: 30px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.Chats p {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: 20px;
+  margin-right: auto;
+}
+.icon {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
+  flex-grow: 5;
+}
+.icon i {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+.iconname {
+  flex: 4;
+  font-size: 15px;
+  font-weight: bolder;
+  margin-top: -20px;
+}
+
+.re {
+  flex: 5;
+  display: flex;
+  font-size: 15px;
+  font-weight: light;
+  color: gray;
+  width: 100%;
+  margin-left: 50px;
+}
+.nore {
+  flex: 6;
+  display: flex;
+  font-size: 15px;
+  font-weight: light;
+  color: gray;
+  width: 100%;
+  margin-left: 50%;
+}
+.open {
+  flex: 7;
+  font-size: 15px;
+  font-weight: bolder;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  color: gray;
+}
+.open p1 {
+  margin-top: 20px;
+  margin-right: 100px;
+}
+.open p2 {
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.intro {
+  border: 1px solid black;
+  flex: 8;
+  width: 100%;
+  justify-content: space-between;
+}
+.intro p1 {
+  display: flex;
+  margin-left: 20px;
+}
+.intro p2 {
+  display: flex;
+  margin-left: 20px;
+}

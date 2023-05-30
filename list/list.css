@@ -99,6 +99,15 @@ body {
   border: 1px solid black;
   background-color: gray;
 }
+.buttom a {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  color: black;
+}
+
 .buttom i {
   font-size: 30px;
   font-weight: bolder;
