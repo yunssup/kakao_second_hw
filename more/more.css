@@ -1,0 +1,156 @@
+body {
+  margin-left: 75vh;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  width: 70vh;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.top {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
+  flex-grow: 0.01;
+  border: 1px solid black;
+}
+.top i {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.top p {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.Chats {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+  flex-grow: 0.02;
+  border: 1px solid black;
+}
+
+.Chats i {
+  font-size: 30px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.Chats p {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+.list {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  flex-grow: 5;
+  margin-bottom: 300px;
+  width: 100%;
+  border: 1px solid black;
+}
+.list img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+}
+.list-name p1 {
+  font-size: 24px;
+  color: #333;
+  padding-left: 20px;
+  padding-right: 200px;
+}
+.list-name p2 {
+  font-size: 18px;
+  color: #333;
+  margin-right: 20px;
+  padding-right: 200px;
+  font-weight: lighter;
+}
+.list i {
+  font-size: 30px;
+  margin-left: 150px;
+}
+.icon {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
+  flex-grow: 5;
+  border: 1px solid black;
+}
+.icon i {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+.name {
+  flex: 5;
+  font-size: 25px;
+  flex-direction: row;
+  flex-grow: 5;
+  border: 1px solid black;
+}
+.name p {
+  white-space: 100px;
+}
+.suggestion {
+  flex: 6;
+  width: 100%;
+}
+.suggestion p {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-right: 300px;
+  border: 1px solid black;
+}
+.suggestionicon {
+  flex: 7;
+  display: flex;
+  align-items: center;
+  flex-grow: 5;
+  width: 100%;
+}
+.suggestionicon i {
+  font-size: 30px;
+  margin-left: 150px;
+}
+
+.buttom {
+  flex: 8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
+  border: 1px solid black;
+  background-color: gray;
+}
+.buttom i {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}

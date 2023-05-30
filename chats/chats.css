@@ -1,0 +1,141 @@
+body {
+  margin-left: 75vh;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  width: 70vh;
+  height: 100vh;
+  border: 1px solid red;
+}
+body {
+  margin-left: 75vh;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  width: 70vh;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  border: 1px solid black;
+  background-color: lightblue;
+}
+
+.top {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-grow: 0.01;
+}
+.top i {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.top p {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.chatname {
+  flex: 2;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chatname i.fas.fa-chevron-left {
+  order: 1;
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.chatname p {
+  order: 2;
+  margin: 0;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: 80px;
+}
+
+.chatname i.fas.fa-search,
+i.fas.fa-bars {
+  order: 3;
+  margin-left: 20px;
+  margin-right: 10px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.date {
+  flex: 3;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.date p {
+  margin: 0;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+}
+.first {
+  flex: 4;
+  width: 100%;
+  border: 1px solid black;
+  position: relative;
+  display: inline-block;
+}
+.first img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 20px;
+}
+.first p {
+  font-size: 25px;
+  flex-direction: row;
+}
+.first span {
+  font-size: 25px;
+  flex-direction: row;
+}
+.icon-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  font-size: 12px;
+  color: #000;
+}
+.second {
+  flex: 5;
+  width: 100%;
+  border: 1px solid black;
+}
+.new {
+  flex: 6;
+  width: 100%;
+  border: 1px solid black;
+  align-items: flex-end;
+}
+.new p {
+  margin: 0;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-self: flex-end;
+}
