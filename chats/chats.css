@@ -4,7 +4,6 @@ body {
   font-family: Arial, sans-serif;
   width: 70vh;
   height: 100vh;
-  border: 1px solid red;
 }
 body {
   margin-left: 75vh;
@@ -74,7 +73,6 @@ i.fas.fa-bars {
 .date {
   flex: 3;
   width: 100%;
-  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,7 +87,6 @@ i.fas.fa-bars {
 .first {
   flex: 4;
   width: 100%;
-  border: 1px solid black;
   position: relative;
   display: inline-block;
 }
@@ -100,33 +97,36 @@ i.fas.fa-bars {
   object-fit: cover;
   margin-left: 20px;
 }
-.first p {
-  font-size: 25px;
+.first p1 {
+  font-size: 30px;
   flex-direction: row;
 }
-.first span {
+.first p2 {
   font-size: 25px;
   flex-direction: row;
-}
-.icon-text {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  font-size: 12px;
-  color: #000;
+  margin-left: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 25px;
 }
 .second {
   flex: 5;
   width: 100%;
-  border: 1px solid black;
+  position: relative;
+  display: inline-block;
+}
+.second p {
+  text-align: right;
+  font-size: 25px;
+  flex-direction: row;
+  margin-right: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 25px;
 }
 .new {
   flex: 6;
   width: 100%;
-  border: 1px solid black;
   align-items: flex-end;
 }
 .new p {
@@ -138,4 +138,5 @@ i.fas.fa-bars {
   margin-left: 20px;
   margin-right: 20px;
   align-self: flex-end;
+  margin-top: 300px;
 }
