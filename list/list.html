@@ -1,49 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>list</title>
     <link rel="stylesheet" href="list.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-      crossorigin="anonymous"
-    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kokoa Talk</title>
   </head>
+
   <body>
-    <div class="container">
-      <div class="top">
-        <p>KT</p>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
         <i class="fas fa-wifi"></i>
-        <p>15:12</p>
-        <p>100%</p>
-        <i class="fas fa-battery-full"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
         <i class="fas fa-bolt"></i>
       </div>
-      <div class = "Chats">
-        <p>Chats</p>
-        <i class="fas fa-search"></i>
-        <i class="far fa-comment-dots"></i>
-        <i class="fas fa-music"></i>
-        <i class="fas fa-cog"></i>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-hearder__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="far fa-comment-dots fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
       </div>
-      <div class="list">
-        <img src="image/unnamed.png" alt="kakao">
-        <h2 class="list-title"><p1>Kakao</p1>
-          <p2><br>   Please check My kakao<br>   Account Info</p2>
-        </h2>
-        <h3 class="list-time">21:22</h3>
-      </div>
-      
-      <div class = "buttom">
-        <i class="fas fa-user"></i>
-        <a href="http://127.0.0.1:5500/chats/chats.html"><i class="fas fa-comment"></i>
-        </a>
-        <a href="http://127.0.0.1:5500/find/find.html"><i class="fas fa-search"></i></a>
-        <a href="http://127.0.0.1:5500/more/more.html"><i class="fas fa-ellipsis-h"></i></a>
-      </div>
+    </header>
+
+    <main class="main-screen">
+      <a href="chat.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="../image/루피.jpeg"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">KaKao Talk</h4>
+              <h6 class="user-component__subtitle">
+                Plesase check My Kakao Account Info
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">15:22</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav_btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav__link" href="chats.html"
+            ><span class="nav__notification badge">1</span
+            ><i class="fas fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav__link" href="more.html"
+            ><span class="nav__notification2"></span
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <script
+      src="https://kit.fontawesome.com/a9eb1f10be.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

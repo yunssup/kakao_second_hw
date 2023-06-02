@@ -1,48 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>chats</title>
     <link rel="stylesheet" href="chats.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-      crossorigin="anonymous"
-    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats</title>
   </head>
-  <body>
-    <div class="container">
-    <div class="top">
-      <p>KT</p>
-      <i class="fas fa-wifi"></i>
-      <p>15:12</p>
-      <p>100%</p>
-      <i class="fas fa-battery-full"></i>
-      <i class="fas fa-bolt"></i>
+
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>KT</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
     </div>
-    <div class = "chatname">
-      <i class="fas fa-chevron-left"></i>
-      <p>KAKAO</p>
-      <i class="fas fa-search"><i class="fas fa-bars"></i></i>
-    </div>
-    <div class = "date">
-      <p>Tuesday, Jun 30, 2020</p>
-    </div>
-    <div class = "first">
-      <img src="image/unnamed.png" alt="kakao">
-      <p1>KAKAO</p1>
-      <p2><br>헬로헬로헬로우</p2>
-    </div>
-    <div class = "second">
-      <p>빠이빠이빠이루</p>
-    </div>
-    <div class = "new">
-      <p>hi~~Front-end~~~~Likelion~~~~</p>
-    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"><i class="fas fa-angle-left fa-3x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">루피</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-2x"></i></span>
+        <span><i class="fas fa-bars fa-2x"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, June 30, 2020</div>
+      <div class="message-row">
+        <img src="../image/jl9DQQM1QxiPQklpiKii_GjzZ0fFXW61vAGZx.jpeg" />
+        <div class="message-row__content">
+          <span class="message__author">루피</span>
+          <div class="message__info">
+            <span class="message__bubble">안녕 난 루피야</span>
+            <span class="message__time">20:19</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">안녕! 반가워</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <i class="far fa-plus-square fa-lg"></i>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+      </div>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/a9eb1f10be.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
-
-
